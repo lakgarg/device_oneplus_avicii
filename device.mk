@@ -26,6 +26,13 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/devicesettings/privapp-permissions-devicesettings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-devicesettings.xml
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
