@@ -13,6 +13,10 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbluetooth_qti
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
