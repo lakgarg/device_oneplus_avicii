@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/gf_input.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gf_input.kl
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
