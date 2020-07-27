@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/nord
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
     
 # Telephony
 PRODUCT_PACKAGES += \
