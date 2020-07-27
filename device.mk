@@ -26,6 +26,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# NFC
+PRODUCT_PACKAGES += \
+    NfcNci \
+    Tag \
+    SecureElement
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/avicii
