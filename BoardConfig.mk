@@ -5,7 +5,8 @@
 #
 
 DEVICE_PATH := device/oneplus/nord
-BOARD_VENDOR := oneplus
+
+TARGET_BOARD_PLATFORM := kona
 
 # Architecture
 TARGET_ARCH := arm64
