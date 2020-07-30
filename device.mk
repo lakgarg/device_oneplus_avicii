@@ -21,6 +21,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    device/oneplus/nord
+    
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext \
