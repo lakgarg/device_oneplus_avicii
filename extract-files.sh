@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=nord
+DEVICE=avicii
 VENDOR=oneplus
 
 # Load extract utilities and do some sanity checks.

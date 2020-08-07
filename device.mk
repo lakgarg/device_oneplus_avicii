@@ -17,13 +17,20 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_PACKAGES += \
     Snap
 
+# Update Engine
+PRODUCT_PACKAGES += \
+    otapreopt_script \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/oneplus/nord
+    device/oneplus/avicii
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

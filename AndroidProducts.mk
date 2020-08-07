@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nord.mk
+    $(LOCAL_DIR)/lineage_avicii.mk

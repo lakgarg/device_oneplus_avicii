@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=nord
+DEVICE=avicii
 VENDOR=oneplus
 
 INITIAL_COPYRIGHT_YEAR=2020

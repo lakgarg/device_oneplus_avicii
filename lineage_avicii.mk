@@ -17,7 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := oneplus
 PRODUCT_DEVICE := nord
 PRODUCT_MANUFACTURER := oneplus
-PRODUCT_NAME := lineage_nord
+PRODUCT_NAME := lineage_avicii
 PRODUCT_MODEL := OnePlus Nord
 
 PRODUCT_CHARACTERISTICS := nosdcard

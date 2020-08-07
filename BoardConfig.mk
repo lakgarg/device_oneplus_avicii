@@ -4,9 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oneplus/nord
-
-TARGET_BOARD_PLATFORM := kona
+DEVICE_PATH := device/oneplus/avicii
 
 # Architecture
 TARGET_ARCH := arm64
@@ -39,12 +37,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
-
-PRODUCT_PACKAGES += \
-    otapreopt_script
-    update_engine \
-    update_engine_sideload \
-    update_verifier
     
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
@@ -103,6 +95,11 @@ BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_VENDOR := vendor
+
+# Platform
+TARGET_BOARD_PLATFORM := lito
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno620
+QCOM_BOARD_PLATFORMS += lito
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
