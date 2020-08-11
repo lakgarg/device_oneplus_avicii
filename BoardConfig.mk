@@ -66,6 +66,10 @@ SOONG_CONFIG_NAMESPACES += ONEPLUS_AVICII_FOD
 SOONG_CONFIG_ONEPLUS_AVICII_FOD := POS_X POS_Y SIZE
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.oneplus_avicii
 
+SOONG_CONFIG_ONEPLUS_AVICII_FOD_POS_X = 458
+SOONG_CONFIG_ONEPLUS_AVICII_FOD_POS_Y = 2079
+SOONG_CONFIG_ONEPLUS_AVICII_FOD_SIZE = 164
+
 # Kernel
 BOARD_KERNEL_BASE := 0x0000
 BOARD_KERNEL_CMDLINE := androidboot.console=ttyMSM0 androidboot.hardware=qcom androidboot.memcg=1 androidboot.usbcontroller=a600000.dwc3 cgroup.memory=nokmem,nosocket console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa90000 loop.max_part=7 lpm_levels.sleep_disabled=1 swiotlb=2048 msm_rtb.filter=0x237 service_locator.enable=1
