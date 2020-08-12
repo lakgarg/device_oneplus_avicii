@@ -70,6 +70,12 @@ DEVICE_PACKAGE_OVERLAYS += \
     
 # Telephony
 PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml \
+    qti-telephony-utils \
+    qti_telephony_utils.xml \
     telephony-ext \
 
 PRODUCT_BOOT_JARS += \
@@ -83,3 +89,6 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
     update_verifier
+
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/oneplus/avicii/avicii-vendor.mk)
