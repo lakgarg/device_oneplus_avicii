@@ -15,7 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := oneplus
-PRODUCT_DEVICE := nord
+PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := oneplus
 PRODUCT_NAME := lineage_avicii
 PRODUCT_MODEL := OnePlus Nord
