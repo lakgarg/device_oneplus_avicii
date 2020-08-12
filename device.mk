@@ -68,6 +68,11 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
     
+# Overlays -- Override vendor ones
+PRODUCT_PACKAGES += \
+    FrameworksResCommon \
+    FrameworksResTarget
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
